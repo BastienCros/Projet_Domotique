@@ -8,7 +8,7 @@
 #include<sys/socket.h>
 #include<arpa/inet.h> 	//inet_addr
 #include<unistd.h>    	//write
-#include<pthread.h> 	//for threading , link with lpthread
+#include<pthread.h> 	//for threading , link with pthread : gcc -pthread file.c -o ../*directory*/Name_Programme
  
 //the thread function
 void *connection_handler(void *);
@@ -29,7 +29,7 @@ int main(int argc , char *argv[])
     //Prepare the sockaddr_in structure
     server.sin_family = AF_INET;			// Addresse Ipv4
     server.sin_addr.s_addr = INADDR_ANY;		// Supporte toutes les addresses
-    server.sin_port = htons( 8888 );			// Port 888 (serveur)
+    server.sin_port = htons( 8888 );			// Port 8888 (serveur)
      
     //Bind : bound the sockaddr_in server to the socket socket_desc
     if( bind(socket_desc,(struct sockaddr *)&server , sizeof(server)) < 0)
@@ -98,6 +98,8 @@ void *connection_handler(void *socket_desc)
     {
         //Send the message back to client
         write(sock , client_message , strlen(client_message));
+	//And print the client's message to the terminal (does not inform about the client)
+	printf("A client send : %s", client_message); 
     }
      
     if(read_size == 0)
