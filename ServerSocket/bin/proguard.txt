@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:8
+-keep class droid.fr.MainActivity { <init>(...); }
+
+# onClick res/layout/main.xml #generated:13
+-keepclassmembers class * { *** connect(...); }
+

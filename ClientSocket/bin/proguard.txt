@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:8
+-keep class test.co.MainActivity { <init>(...); }
+
+# onClick res/layout/main.xml #generated:23
+-keepclassmembers class * { *** Start(...); }
+
+# onClick res/layout/main.xml #generated:30
+-keepclassmembers class * { *** sendMessage(...); }
+
