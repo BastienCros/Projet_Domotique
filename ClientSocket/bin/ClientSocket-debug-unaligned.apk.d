@@ -1,3 +1,3 @@
-/home/clanco/NetBeansProjects/ClientSocket/bin/ClientSocket-debug-unaligned.apk : \
-/home/clanco/NetBeansProjects/ClientSocket/bin/ClientSocket.ap_ \
-/home/clanco/NetBeansProjects/ClientSocket/bin/classes.dex \
+/home/clanco/Documents/GIT/serveur_raspberry/ClientSocket/bin/ClientSocket-debug-unaligned.apk : \
+/home/clanco/Documents/GIT/serveur_raspberry/ClientSocket/bin/ClientSocket.ap_ \
+/home/clanco/Documents/GIT/serveur_raspberry/ClientSocket/bin/classes.dex \

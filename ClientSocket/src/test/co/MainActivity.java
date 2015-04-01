@@ -35,20 +35,8 @@ public class MainActivity extends Activity
            { 
                try
                {
-                   clientSocket= new Socket("192.168.0.102",8888);
-                   
-                   
-               }
-               catch (Exception e)
-               {
-                   e.printStackTrace();
-               }
-           }
-         
-           
-           public void sendMessage(Socket clientSocket) throws IOException
-           {
-               ObjectOutputStream oos = new ObjectOutputStream(clientSocket.getOutputStream());
+                   clientSocket= new Socket("127.0.0.1",8888);
+                   ObjectOutputStream oos = new ObjectOutputStream(clientSocket.getOutputStream());
                    oos.writeObject("Bastien suce des types");
                    Message serverMessage= Message.obtain();
                    ObjectInputStream ois= new ObjectInputStream(clientSocket.getInputStream());
@@ -62,7 +50,17 @@ public class MainActivity extends Activity
                    
                    oos.close();
                    ois.close();
+                   
+                   
+               }
+               catch (Exception e)
+               {
+                   e.printStackTrace();
+               }
            }
+         
+           
+           
         });
         
         m_objThreadClient.start();

@@ -4,6 +4,3 @@
 # onClick res/layout/main.xml #generated:23
 -keepclassmembers class * { *** Start(...); }
 
-# onClick res/layout/main.xml #generated:30
--keepclassmembers class * { *** sendMessage(...); }
-
