@@ -17,7 +17,7 @@
 #include <netinet/in.h>
 
 #include <unistd.h>
-#include <sdlib.h>
+#include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -79,7 +79,7 @@ int main(int argc, char *argv[])
 
 	switch (argc) {
 		case 1:
-			break:
+			break;
 		case 2: 
 			portbase = (unsigned short) atoi(argv[1]);
 			break;
@@ -96,25 +96,25 @@ int main(int argc, char *argv[])
 		else
 			psv->sv_sock = passiveUDP(psv->sv_name);
 		fd2sv[psv->sv_sock] = psv;
-		nfds MAX(psv->sv_sock+1, nfds);
+		nfds = MAX(psv->sv_sock+1, nfds);
 		FD_SET(psv->sv_sock, &afds);
 	}
-	(void) signal(SIGCHILD, reaper);
+	(void) signal(SIGCHLD, reaper);
 
 	while (1) {
 		memcpy(&rfds, &afds, sizeof(rfds));
-		if (select(nfds, &rfds, (fd_set *)0, (fd_set *)0, (struct *timeval)0) {
+		if (select(nfds, &rfds, (fd_set *)0, (fd_set *)0, (struct timeval *)0) < 0) {
 			if (errno == EINTR)
 				continue;
 			errexit("select error: %s\n", sterror(errno));
 		}
 		for (fd=0; fd<nfds; ++fd) {
 			if (FD_ISSET(fd, &rfds)) {
-				psv = fd2s[fd];
-				if (psv->sv_UseTCP)
+				psv = fd2sv[fd];
+				if (psv->sv_useTCP)
 					doTCP(psv);
 				else
-					psv->psv_func(psv_sock);
+					psv->sv_func(psv->sv_sock);
 			}	
 		}
 	}   
@@ -128,7 +128,7 @@ int main(int argc, char *argv[])
  *-------------------------------------------------------------------
  */
 
-void doTCP(struct *service *psv) 
+void doTCP(struct service *psv) 
 {
 	
 	struct sockaddr_in	fsin;			/* the request from address	*/
@@ -155,7 +155,7 @@ void doTCP(struct *service *psv)
 			(void) close(fd);
 		psv->sv_func(ssock);
 		exit(0);
-
+	}
 }
 
 /*-------------------------------------------------------------------
