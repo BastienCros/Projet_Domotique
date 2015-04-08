@@ -103,7 +103,7 @@ void *connection_handler(void *socket_desc)
 	puts("\nMessage du client : ");
 	for (i=0; i<strlen(client_message); i++)
 	{
-		puts("%c", client_message[i]);
+		printf("%c", client_message[i]);
 	}
 	puts("\n");
     }
