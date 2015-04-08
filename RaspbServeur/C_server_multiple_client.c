@@ -97,9 +97,15 @@ void *connection_handler(void *socket_desc)
     while( (read_size = recv(sock , client_message , 2000 , 0)) > 0 )
     {
         //Send the message back to client
+	int i;
         write(sock , client_message , strlen(client_message));
 	//And print the client's message to the terminal (does not inform about the client)
-	printf("A client send : %s", client_message); 
+	puts("\nMessage du client : ")
+	for (i=0; i<strlen(client_message); i++)
+	{
+		puts("%c", client_message[i]);
+	}
+	puts("\n");
     }
      
     if(read_size == 0)
