@@ -100,7 +100,7 @@ void *connection_handler(void *socket_desc)
 	int i;
         write(sock , client_message , strlen(client_message));
 	//And print the client's message to the terminal (does not inform about the client)
-	puts("\nMessage du client : ")
+	puts("\nMessage du client : ");
 	for (i=0; i<strlen(client_message); i++)
 	{
 		puts("%c", client_message[i]);
