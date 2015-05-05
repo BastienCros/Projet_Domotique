@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.25)  1 APR 2015 11:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.25)  1 APR 2015 12:00
 entering extended mode
 **rapport_projet_rasberry.tex
 
@@ -835,33 +835,27 @@ l.44 \clearpage
                 [1
 
 ]
-Overfull \hbox (8.25111pt too wide) in paragraph at lines 100--102
-[]\OT1/lmr/m/n/10 Le X10 est vieillis-sant et par consequent de nombres constr
-uc-teurs le delaissent.
- []
-
-
-Overfull \hbox (11.25055pt too wide) in paragraph at lines 108--109
-[]\OT1/lmr/m/n/10 des tech-no-lo-gies mises en oeuvre par plu-sieurs construc-t
-eurs de peripheriques. 
+Overfull \hbox (9.30624pt too wide) in paragraph at lines 94--95
+[]\OT1/lmr/m/n/10 des tech-no-lo-gies mises en uvre par plu-sieurs construc-te
+urs de peripheriques. 
  []
 
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
-<forces-protocole-zwave.jpg, id=63, 487.06969pt x 344.03531pt>
+<forces-protocole-zwave.jpg, id=65, 487.06969pt x 344.03531pt>
 File: forces-protocole-zwave.jpg Graphic file (type jpg)
 
 <use forces-protocole-zwave.jpg>
-Package pdftex.def Info: forces-protocole-zwave.jpg used on input line 132.
+Package pdftex.def Info: forces-protocole-zwave.jpg used on input line 118.
 (pdftex.def)             Requested size: 340.94644pt x 240.82307pt.
  [3 <D:/Cours/S8/Projets/Client_Serveur/serveur_raspberry/Latex/forces-protocol
 e-zwave.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
@@ -869,9 +863,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--155
 File: forces-protocole-enocean.jpg Graphic file (type jpg)
 
 <use forces-protocole-enocean.jpg>
-Package pdftex.def Info: forces-protocole-enocean.jpg used on input line 160.
+Package pdftex.def Info: forces-protocole-enocean.jpg used on input line 146.
 (pdftex.def)             Requested size: 341.47342pt x 238.18825pt.
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 164
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 150
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
@@ -881,33 +875,33 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: forces-enocean-vs-z-wave.jpg Graphic file (type jpg)
 
 <use forces-enocean-vs-z-wave.jpg>
-Package pdftex.def Info: forces-enocean-vs-z-wave.jpg used on input line 167.
+Package pdftex.def Info: forces-enocean-vs-z-wave.jpg used on input line 153.
 (pdftex.def)             Requested size: 334.62286pt x 255.05113pt.
  [4 <D:/Cours/S8/Projets/Client_Serveur/serveur_raspberry/Latex/forces-protocol
 e-enocean.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
  [5 <D:/Cours/S8/Projets/Client_Serveur/serveur_raspberry/Latex/forces-enocean-
 vs-z-wave.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
 
 (D:\Cours\S8\Projets\Client_Serveur\serveur_raspberry\Latex\rapport_projet_rasb
 erry.aux
 (D:\Cours\S8\Projets\Client_Serveur\serveur_raspberry\Latex\pagedegarde.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
 Package rerunfilecheck Info: File `rapport_projet_rasberry.out' has not changed
 .
 (rerunfilecheck)             Checksum: F9538F55647C2CE3C90344006499EBE1;391.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 178.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
  ) 
 Here is how much of TeX's memory you used:
- 9141 strings out of 493921
- 138307 string characters out of 3144882
- 219855 words of memory out of 3000000
+ 9140 strings out of 493921
+ 138296 string characters out of 3144882
+ 218855 words of memory out of 3000000
  12282 multiletter control sequences out of 15000+200000
  44042 words of font info for 35 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 44i,7n,43p,603b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,7n,43p,603b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.enc}{C:/Program
  Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86
 )/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fo
@@ -919,9 +913,9 @@ les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb>
-Output written on rapport_projet_rasberry.pdf (6 pages, 922593 bytes).
+Output written on rapport_projet_rasberry.pdf (6 pages, 922557 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
+ 126 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
  79 words of extra memory for PDF output out of 10000 (max. 10000000)
 

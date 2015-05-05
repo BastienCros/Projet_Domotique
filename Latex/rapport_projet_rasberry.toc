@@ -7,13 +7,12 @@
 \contentsline {subparagraph}{Les plus :}{2}{section*.3}
 \contentsline {subparagraph}{Les moins :}{2}{section*.4}
 \contentsline {paragraph}{OREGON}{2}{section*.5}
-\contentsline {subparagraph}{Les plus :}{2}{section*.6}
-\contentsline {subparagraph}{Les moins :}{2}{section*.7}
+\contentsline {paragraph}{OREGON}{2}{section*.6}
 \contentsline {subsection}{\numberline {3.2}Les protocoles de rupture technologique}{2}{subsection.3.2}
-\contentsline {paragraph}{Z-Wave}{3}{section*.8}
-\contentsline {subparagraph}{Les plus :}{3}{section*.9}
-\contentsline {subparagraph}{Les moins :}{3}{section*.10}
-\contentsline {paragraph}{EnOcean}{3}{section*.12}
-\contentsline {subparagraph}{Les plus :}{4}{section*.13}
-\contentsline {subparagraph}{Les moins :}{4}{section*.14}
+\contentsline {paragraph}{Z-Wave}{2}{section*.7}
+\contentsline {subparagraph}{Les plus :}{2}{section*.8}
+\contentsline {subparagraph}{Les moins :}{3}{section*.9}
+\contentsline {paragraph}{EnOcean}{3}{section*.11}
+\contentsline {subparagraph}{Les plus :}{3}{section*.12}
+\contentsline {subparagraph}{Les moins :}{4}{section*.13}
 \contentsline {section}{\numberline {4}Annexes}{5}{section.4}
