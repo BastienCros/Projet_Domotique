@@ -1,4 +1,5 @@
 \select@language {french}
+<<<<<<< HEAD
 \contentsline {section}{\numberline {1}Partie Android (client)}{2}{section.1}
 \contentsline {section}{\numberline {2}Partie Raspberry (serveur)}{2}{section.2}
 \contentsline {section}{\numberline {3}JSON (JavaScript Object Notation)}{2}{section.3}
@@ -7,11 +8,26 @@
 \contentsline {section}{\numberline {4}Protocoles domotiques}{2}{section.4}
 \contentsline {subsection}{\numberline {4.1}Les protocoles grand public}{2}{subsection.4.1}
 \contentsline {paragraph}{X10}{2}{section*.5}
+=======
+\contentsline {section}{\numberline {1}Presentation Projet}{2}{section.1}
+\contentsline {section}{\numberline {2}Partie Android (client)}{2}{section.2}
+\contentsline {section}{\numberline {3}Partie Raspberry (serveur)}{2}{section.3}
+\contentsline {subsection}{\numberline {3.1}Premi\IeC {\`e}re version du serveur : Connexion \IeC {\`a} un seul client}{2}{subsection.3.1}
+\contentsline {paragraph}{Connexion au client Linux}{3}{section*.3}
+\contentsline {paragraph}{Connexion avec le client Android}{3}{section*.4}
+\contentsline {subsection}{\numberline {3.2}Seconde version du serveur : gestion de plusieurs clients}{3}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Troisi\IeC {\`e}me version du serveur : \IeC {\'e}changes de trame au format JSON}{3}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Quatri\IeC {\`e}me version du serveur : lancement de t\IeC {\^a}che diff\IeC {\'e}rentes selon le type de connexion}{3}{subsection.3.4}
+\contentsline {section}{\numberline {4}Protocoles domotiques}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}Les protocoles grand public}{3}{subsection.4.1}
+\contentsline {paragraph}{X10}{3}{section*.5}
+>>>>>>> 7236a1b4b36be01ece3d3cdc346689b2b9b66faf
 \contentsline {subparagraph}{Les plus :}{3}{section*.6}
 \contentsline {subparagraph}{Les moins :}{3}{section*.7}
 \contentsline {paragraph}{OREGON}{3}{section*.8}
 \contentsline {paragraph}{OREGON}{3}{section*.9}
 \contentsline {subsection}{\numberline {4.2}Les protocoles de rupture technologique}{3}{subsection.4.2}
+<<<<<<< HEAD
 \contentsline {paragraph}{Z-Wave}{3}{section*.10}
 \contentsline {subparagraph}{Les plus :}{3}{section*.11}
 \contentsline {subparagraph}{Les moins :}{3}{section*.12}
@@ -19,3 +35,12 @@
 \contentsline {subparagraph}{Les plus :}{4}{section*.15}
 \contentsline {subparagraph}{Les moins :}{4}{section*.16}
 \contentsline {section}{\numberline {5}Annexes}{6}{section.5}
+=======
+\contentsline {paragraph}{Z-Wave}{4}{section*.10}
+\contentsline {subparagraph}{Les plus :}{4}{section*.11}
+\contentsline {subparagraph}{Les moins :}{4}{section*.12}
+\contentsline {paragraph}{EnOcean}{4}{section*.13}
+\contentsline {subparagraph}{Les plus :}{4}{section*.14}
+\contentsline {subparagraph}{Les moins :}{4}{section*.15}
+\contentsline {section}{\numberline {5}Annexes}{5}{section.5}
+>>>>>>> 7236a1b4b36be01ece3d3cdc346689b2b9b66faf

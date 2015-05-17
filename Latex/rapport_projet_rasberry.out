@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \BOOKMARK [1][-]{section.1}{Partie Android \(client\)}{}% 1
 \BOOKMARK [1][-]{section.2}{Partie Raspberry \(serveur\)}{}% 2
 \BOOKMARK [1][-]{section.3}{JSON \(JavaScript Object Notation\)}{}% 3
@@ -5,3 +6,16 @@
 \BOOKMARK [2][-]{subsection.4.1}{Les protocoles grand public}{section.4}% 5
 \BOOKMARK [2][-]{subsection.4.2}{Les protocoles de rupture technologique}{section.4}% 6
 \BOOKMARK [1][-]{section.5}{Annexes}{}% 7
+=======
+\BOOKMARK [1][-]{section.1}{Presentation Projet}{}% 1
+\BOOKMARK [1][-]{section.2}{Partie Android \(client\)}{}% 2
+\BOOKMARK [1][-]{section.3}{Partie Raspberry \(serveur\)}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Premi\350re version du serveur : Connexion \340 un seul client}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Seconde version du serveur : gestion de plusieurs clients}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Troisi\350me version du serveur : \351changes de trame au format JSON}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Quatri\350me version du serveur : lancement de t\342che diff\351rentes selon le type de connexion}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Protocoles domotiques}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Les protocoles grand public}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.2}{Les protocoles de rupture technologique}{section.4}% 10
+\BOOKMARK [1][-]{section.5}{Annexes}{}% 11
+>>>>>>> 7236a1b4b36be01ece3d3cdc346689b2b9b66faf

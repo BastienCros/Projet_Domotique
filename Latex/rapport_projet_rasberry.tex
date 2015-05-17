@@ -38,11 +38,22 @@
 %}
 %----------------------------------------------------------
 
+\renewcommand{\labelitemii}{$\bullet$}
+
 \begin{document}
 \include{pagedegarde}
 \tableofcontents
 \clearpage
 
+%-------------------------------------------------------------------------------------------------------------
+
+\section{Presentation Projet}
+
+-- TITE INTRO --
+\begin{figure}[H]
+\centering\includegraphics[scale=0.7]{images/Shema_projet.png}
+\caption{Schéma montrant les différentes connexion du réseau.}
+\end{figure}
 
 %-------------------------------------------------------------------------------
 
@@ -54,7 +65,40 @@
 
 \section{Partie Raspberry (serveur)}
 
+Le serveur servira a centralisé tout le réseau domotique. Il aura pour tâches : \\
+\begin{itemize}
+	\item Possibilité de stocker les donnés des capteurs si liaison Tablette-Rasberry coupée.
+	\item Gestion des données différentes en fonction de la connexion à un client Android ou un capteur/	actionneur. 
+	\item Si connexion à un Android : 
+		\begin{itemize}
+			\item Envoie des informations concernant les capteurs, les actionneurs, de métrologie, etc. (à définir).
+			\item Réception des ordres de la tablette : allumer tel lampe, se connecter à tel capteur, etc. (à définir).
+		\end{itemize}
+	\item Si connexion à un capteur, simplement lire les informations.
+	\item Si connexion à un actionneur, le commander (selon les ordres reçu de la tablette) et gérer son état.
+	\item Calcul de métrologie pour chaque connexion.
+\end{itemize}
 
+Pour implémenter le serveur, nous avons choisi d'utiliser une Raspberry B+, embarquant un système dérivé de Débian : Raspbian. Cela nous as permit d'implémenter un serveur linux, utilisant les fonctions unix.
+
+\subsection{Première version du serveur : Connexion à un seul client}
+
+Le premier serveur implenter sur la Raspberry permettais seulement de gérer une connexion client/serveur la plus simple possible : le client se connecter grâce au port et l'adresse IP du serveur à celui-ci, et le serveur notifie sur le terminal que la connexion à bien été effectuer. Ensuite le client demande à l'utilisateur de taper quelque chose à l'écran, que le serveur lui renvoi. Finalement le client affiche dans son terminal la réponse du serveur ce qui permet de vérifier que le serveur à bien reçu le message.
+
+Le premier test à été effectuer en implémentant un client linux sur la Raspberry. Ainsi, nous pouvions valider le serveur grâce au client, avant de tester la connexion avec le client Android.
+
+\paragraph{Connexion au client Linux}
+%% -> les résultats obtenu, qlq images du terminale, puis les prob rencontré ( problème de buffer)
+
+\paragraph{Connexion avec le client Android}
+%% -> les résultats obtenu, qlq images du terminale, puis les prob rencontré ( données pas codé de la même manière)
+
+\subsection{Seconde version du serveur : gestion de plusieurs clients}
+
+\subsection{Troisième version du serveur : échanges de trame au format JSON}
+
+\subsection{Quatrième version du serveur : lancement de tâche différentes selon le type de connexion}
+%% -> serveur multi service
 
 %-------------------------------------------------------------------------------------------------------------
 
@@ -137,10 +181,10 @@ Ses caractéristiques sont qu'il est relativement sécurisé, à double sens (ch
 \end{itemize}
 Le Z-Wave est un protocole de choix pour les actionneurs mais moins pour les capteurs. Voici le résumé graphique :
 
-\begin{figure}[H]
-\centering\includegraphics[scale=0.7]{images/forces-protocole-zwave.jpg}
-\caption{Forces et faiblesses du protocole Z-Wave.}
-\end{figure}
+%\begin{figure}[H]
+%\centering\includegraphics[scale=0.7]{images/forces-protocole-zwave.jpg}
+%\caption{Forces et faiblesses du protocole Z-Wave.}
+%\end{figure}
 
 %-----
 \paragraph{EnOcean}
@@ -165,17 +209,17 @@ Lorsqu’un interrupteur EnOcean utilise des cristaux piezo-électrique pour pro
 
 
 Voici le résumé graphique :
-\begin{figure}[H]
-\centering\includegraphics[scale=0.7]{images/forces-protocole-enocean.jpg}
-\caption{Forces et faiblesses du protocole EnOcean.}
-\end{figure}
+%\begin{figure}[H]
+%\centering\includegraphics[scale=0.7]{images/forces-protocole-enocean.jpg}
+%\caption{Forces et faiblesses du protocole EnOcean.}
+%\end{figure}
 
 Les deux graphiques précédent sont issues du site \url{www.abavala.com}. Elles ne sont pas issues de mesures scientifiques mais d’avis personnels exprimés librement. Voici le graphique qui regroupes ces deux protocoles :
 
-\begin{figure}[H]
-\centering\includegraphics[scale=0.7]{images/forces-enocean-vs-z-wave.jpg}
-\caption{Comparaison des deux protocoles.}
-\end{figure}
+%\begin{figure}[H]
+%\centering\includegraphics[scale=0.7]{images/forces-enocean-vs-z-wave.jpg}
+%\caption{Comparaison des deux protocoles.}
+%\end{figure}
 %-------------------------------------------------------------------------------------------------------------
 
 \section{Annexes}

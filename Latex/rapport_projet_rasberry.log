@@ -1,9 +1,11 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.25)  17 MAY 2015 13:21
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.18)  8 MAY 2015 18:54
+>>>>>>> 7236a1b4b36be01ece3d3cdc346689b2b9b66faf
 entering extended mode
 **rapport_projet_rasberry.tex
-
-(D:\Cours\S8\Projets\Client_Serveur\serveur_raspberry\Latex\rapport_projet_rasb
-erry.tex
+(D:\Documents\Cour\Projet_Domotique\Latex\rapport_projet_rasberry.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -699,43 +701,42 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-(D:\Cours\S8\Projets\Client_Serveur\serveur_raspberry\Latex\rapport_projet_rasb
-erry.aux
-(D:\Cours\S8\Projets\Client_Serveur\serveur_raspberry\Latex\pagedegarde.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 41.
+(D:\Documents\Cour\Projet_Domotique\Latex\rapport_projet_rasberry.aux
+(D:\Documents\Cour\Projet_Domotique\Latex\pagedegarde.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 43.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 41.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 43.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \degres on input line 41.
-LaTeX Info: Redefining \dots on input line 41.
-LaTeX Info: Redefining \up on input line 41.
+LaTeX Info: Redefining \degres on input line 43.
+LaTeX Info: Redefining \dots on input line 43.
+LaTeX Info: Redefining \up on input line 43.
 
 
 Package frenchb.ldf Warning: OT1 encoding should not be used for French. 
 (frenchb.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(frenchb.ldf)                of your document, on input line 41.
+(frenchb.ldf)                of your document, on input line 43.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -758,7 +759,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 41.
+Package hyperref Info: Link coloring OFF on input line 43.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -767,17 +768,16 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count124
 )
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
-(D:\Cours\S8\Projets\Client_Serveur\serveur_raspberry\Latex\rapport_projet_rasb
-erry.out)
-(D:\Cours\S8\Projets\Client_Serveur\serveur_raspberry\Latex\rapport_projet_rasb
-erry.out)
+(D:\Documents\Cour\Projet_Domotique\Latex\rapport_projet_rasberry.out)
+(D:\Documents\Cour\Projet_Domotique\Latex\rapport_projet_rasberry.out)
 \@outlinefile=\write3
 \c@lstlisting=\count125
 
+<<<<<<< HEAD
 (D:\Cours\S8\Projets\Client_Serveur\serveur_raspberry\Latex\pagedegarde.tex
 <images/head.png, id=31, 803.0pt x 801.99625pt>
 File: images/head.png Graphic file (type png)
@@ -810,30 +810,56 @@ LaTeX Font Info:    Try loading font information for OML+lmm on input line 8.
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 8.
+=======
+(D:\Documents\Cour\Projet_Domotique\Latex\pagedegarde.tex [1
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
+(D:\Documents\Cour\Projet_Domotique\Latex\rapport_projet_rasberry.toc
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 6.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 6.
+>>>>>>> 7236a1b4b36be01ece3d3cdc346689b2b9b66faf
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+<<<<<<< HEAD
 LaTeX Font Info:    Try loading font information for OMX+lmex on input line 8.
+=======
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 6.
+>>>>>>> 7236a1b4b36be01ece3d3cdc346689b2b9b66faf
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
+<<<<<<< HEAD
 (Font)              <10> on input line 8.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 8.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 8.
+=======
+(Font)              <10> on input line 6.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 6.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 6.
+>>>>>>> 7236a1b4b36be01ece3d3cdc346689b2b9b66faf
 )
 \tf@toc=\write4
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.44 \clearpage
+l.46 \clearpage
                 [1
 
+<<<<<<< HEAD
 ]
 <images/json_exemple.png, id=57, 136.25906pt x 119.69719pt>
 File: images/json_exemple.png Graphic file (type png)
@@ -848,13 +874,42 @@ e.png>]
 Overfull \hbox (9.30624pt too wide) in paragraph at lines 117--118
 []\OT1/lmr/m/n/10 des tech-no-lo-gies mises en uvre par plu-sieurs construc-te
 urs de peripheriques. 
+=======
+] <images/Shema_projet.png, id=52, 523.9575pt x 217.5628pt>
+File: images/Shema_projet.png Graphic file (type png)
+
+<use images/Shema_projet.png>
+Package pdftex.def Info: images/Shema_projet.png used on input line 54.
+(pdftex.def)             Requested size: 366.76775pt x 152.29292pt.
+
+Overfull \hbox (21.76775pt too wide) in paragraph at lines 54--55
+ [][] 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+>>>>>>> 7236a1b4b36be01ece3d3cdc346689b2b9b66faf
+ []
+
+
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 136--137
+=======
+ <D:/Documents/Cour/Projet_Domotique/Latex/images/Shema_projet.png>]
+Overfull \hbox (5.57076pt too wide) in paragraph at lines 96--96
+[]\OT1/lmr/bx/n/12 Seconde ver-sion du ser-veur : ges-tion de plu-sieurs client
+s 
+ []
+>>>>>>> 7236a1b4b36be01ece3d3cdc346689b2b9b66faf
 
+[3]
+Overfull \hbox (9.30624pt too wide) in paragraph at lines 138--139
+[]\OT1/lmr/m/n/10 des tech-no-lo-gies mises en uvre par plu-sieurs construc-te
+urs de peripheriques. 
  []
 
+<<<<<<< HEAD
 <images/forces-protocole-zwave.jpg, id=69, 487.06969pt x 344.03531pt>
 File: images/forces-protocole-zwave.jpg Graphic file (type jpg)
 
@@ -878,10 +933,25 @@ Package pdftex.def Info: images/forces-protocole-enocean.jpg used on input line
 (pdftex.def)             Requested size: 341.47342pt x 238.18825pt.
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 173
 .
+=======
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+>>>>>>> 7236a1b4b36be01ece3d3cdc346689b2b9b66faf
+
+ []
+
+[4]
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 194
+.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+<<<<<<< HEAD
 <images/forces-enocean-vs-z-wave.jpg, id=92, 478.03593pt x 364.36125pt>
 File: images/forces-enocean-vs-z-wave.jpg Graphic file (type jpg)
 
@@ -911,6 +981,33 @@ Here is how much of TeX's memory you used:
  138635 string characters out of 3144882
  219855 words of memory out of 3000000
  12287 multiletter control sequences out of 15000+200000
+=======
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
+ [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
+
+(D:\Documents\Cour\Projet_Domotique\Latex\rapport_projet_rasberry.aux
+(D:\Documents\Cour\Projet_Domotique\Latex\pagedegarde.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
+
+
+Package rerunfilecheck Warning: File `rapport_projet_rasberry.out' has changed.
+
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `rapport_projet_rasberry.out':
+(rerunfilecheck)             Before: B4A2526E748E213F8F38747F2FDE3814;446
+(rerunfilecheck)             After:  2CD30EA80D24E1FC1FDD637D293EC9B1;933.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
+ ) 
+Here is how much of TeX's memory you used:
+ 9119 strings out of 493921
+ 137491 string characters out of 3144879
+ 219855 words of memory out of 3000000
+ 12263 multiletter control sequences out of 15000+200000
+>>>>>>> 7236a1b4b36be01ece3d3cdc346689b2b9b66faf
  41100 words of font info for 34 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,7n,43p,603b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -924,9 +1021,17 @@ lic/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
 les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/public/lm/lmtt10.pfb>
+<<<<<<< HEAD
 Output written on rapport_projet_rasberry.pdf (7 pages, 911335 bytes).
 PDF statistics:
  141 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
  92 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+Output written on rapport_projet_rasberry.pdf (6 pages, 216875 bytes).
+PDF statistics:
+ 127 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 7236a1b4b36be01ece3d3cdc346689b2b9b66faf
 
