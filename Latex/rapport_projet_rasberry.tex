@@ -58,6 +58,29 @@
 
 %-------------------------------------------------------------------------------------------------------------
 
+\section{JSON (JavaScript Object Notation)}
+
+Nous avons rencontré un problème lors de l'envoi de données entre la tablette et la Raspberry. En effet les données n'ont pas le même format, elles ne sont pas codées sur le même nombre d'octets sur l'une et l'autre des platformes. Pour résoudre ce problème nous avons décidé d'utiliser un format de donnée spécifique : le JSON.
+
+JSON est un format de données textuelles dérivé de la notation des objets du langage JavaScript. Il permet de représenter de l’information structurée comme le permet XML par exemple. 
+
+Voici un exemple d'objet JSON :
+\begin{figure}[H]
+\centering\includegraphics[scale=0.7]{images/json_exemple.png}
+\caption{Exemple d'objet JSON.}
+\end{figure}
+
+JSON permet donc de représenter n'importe quelles données concrètes et surtout les représenter dans n'importe quel langage de programmation. Ses autres avantages sont :
+\begin{itemize}
+\item peu verbeux donc très lisible
+\item facile à apprendre de par sa syntaxe simple
+\item ses types de données sont connus et simples à décrire
+\end{itemize}
+
+\subparagraph{Sous Android} La plate-forme Android inclut les bibliothèques json.org qui permettent de travailler facilement avec des fichiers JSON. Elle contient un parser et l'utilisation est plutôt simple. Nous avons utilisé \href{http://vogella.developpez.com/tutoriels/android/utilisation-format-json/}{ce tutoriel}.
+\subparagraph{Sur la Raspberry} Nous avons opté pour un parser écrit en C. Il s'appelle \textbf{jsmn} (à prononcer "jasmine") et est très minimaliste. Il est fait exprès pour les systèmes embarquée à ressources limitées. Il est très simple d'utilisation et c'est pourquoi nous l'avons choisi. Voici le \href{http://zserge.com/jsmn.html}{liens} contenant toutes les informations.
+
+%-------------------------------------------------------------------------------------------------------------
 \section{Protocoles domotiques}
 
 \subsection{Les protocoles grand public}
@@ -156,7 +179,7 @@ Les deux graphiques précédent sont issues du site \url{www.abavala.com}. Elles
 %-------------------------------------------------------------------------------------------------------------
 
 \section{Annexes}
-
+http://vogella.developpez.com/tutoriels/android/utilisation-format-json/
 
  
 %-------------------------------------------------------------------------------------------------------------

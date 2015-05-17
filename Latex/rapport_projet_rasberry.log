@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.25)  5 MAY 2015 20:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.25)  17 MAY 2015 13:21
 entering extended mode
 **rapport_projet_rasberry.tex
 
@@ -779,19 +779,19 @@ erry.out)
 \c@lstlisting=\count125
 
 (D:\Cours\S8\Projets\Client_Serveur\serveur_raspberry\Latex\pagedegarde.tex
-<images/head.png, id=27, 803.0pt x 801.99625pt>
+<images/head.png, id=31, 803.0pt x 801.99625pt>
 File: images/head.png Graphic file (type png)
  <use images/head.png>
 Package pdftex.def Info: images/head.png used on input line 14.
 (pdftex.def)             Requested size: 120.4448pt x 120.29424pt.
 
-<images/mea.jpg, id=29, 49.8663pt x 67.452pt>
+<images/mea.jpg, id=33, 49.8663pt x 67.452pt>
 File: images/mea.jpg Graphic file (type jpg)
  <use images/mea.jpg>
 Package pdftex.def Info: images/mea.jpg used on input line 20.
 (pdftex.def)             Requested size: 66.31752pt x 89.69635pt.
 
-<images/um.png, id=30, 963.6pt x 963.6pt>
+<images/um.png, id=34, 963.6pt x 963.6pt>
 File: images/um.png Graphic file (type png)
  <use images/um.png>
 Package pdftex.def Info: images/um.png used on input line 22.
@@ -805,26 +805,26 @@ Serveur/serveur_raspberry/Latex/images/mea.jpg> <D:/Cours/S8/Projets/Client_Ser
 veur/serveur_raspberry/Latex/images/um.png>])
 (D:\Cours\S8\Projets\Client_Serveur\serveur_raspberry\Latex\rapport_projet_rasb
 erry.toc
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 5.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 8.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 5.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 8.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 5.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 8.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 5.
+(Font)              <10> on input line 8.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 5.
+(Font)              <7> on input line 8.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 5.
+(Font)              <5> on input line 8.
 )
 \tf@toc=\write4
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -835,76 +835,85 @@ l.44 \clearpage
                 [1
 
 ]
-Overfull \hbox (9.30624pt too wide) in paragraph at lines 94--95
+<images/json_exemple.png, id=57, 136.25906pt x 119.69719pt>
+File: images/json_exemple.png Graphic file (type png)
+
+<use images/json_exemple.png>
+Package pdftex.def Info: images/json_exemple.png used on input line 69.
+(pdftex.def)             Requested size: 95.38068pt x 83.78745pt.
+ [2
+
+ <D:/Cours/S8/Projets/Client_Serveur/serveur_raspberry/Latex/images/json_exempl
+e.png>]
+Overfull \hbox (9.30624pt too wide) in paragraph at lines 117--118
 []\OT1/lmr/m/n/10 des tech-no-lo-gies mises en uvre par plu-sieurs construc-te
 urs de peripheriques. 
  []
 
-[2
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
-<images/forces-protocole-zwave.jpg, id=64, 487.06969pt x 344.03531pt>
+<images/forces-protocole-zwave.jpg, id=69, 487.06969pt x 344.03531pt>
 File: images/forces-protocole-zwave.jpg Graphic file (type jpg)
 
 <use images/forces-protocole-zwave.jpg>
 Package pdftex.def Info: images/forces-protocole-zwave.jpg used on input line 1
-18.
+41.
 (pdftex.def)             Requested size: 340.94644pt x 240.82307pt.
- [3 <D:/Cours/S8/Projets/Client_Serveur/serveur_raspberry/Latex/images/forces-p
-rotocole-zwave.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
-<images/forces-protocole-enocean.jpg, id=73, 487.8225pt x 340.27126pt>
+[4 <D:/Cours/S8/Projets/Client_Serveur/serveur_raspberry/Latex/images/forces-pr
+otocole-zwave.jpg>]
+<images/forces-protocole-enocean.jpg, id=90, 487.8225pt x 340.27126pt>
 File: images/forces-protocole-enocean.jpg Graphic file (type jpg)
 
 <use images/forces-protocole-enocean.jpg>
 Package pdftex.def Info: images/forces-protocole-enocean.jpg used on input line
- 146.
+ 169.
 (pdftex.def)             Requested size: 341.47342pt x 238.18825pt.
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 150
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 173
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<images/forces-enocean-vs-z-wave.jpg, id=75, 478.03593pt x 364.36125pt>
+<images/forces-enocean-vs-z-wave.jpg, id=92, 478.03593pt x 364.36125pt>
 File: images/forces-enocean-vs-z-wave.jpg Graphic file (type jpg)
 
 <use images/forces-enocean-vs-z-wave.jpg>
 Package pdftex.def Info: images/forces-enocean-vs-z-wave.jpg used on input line
- 153.
+ 176.
 (pdftex.def)             Requested size: 334.62286pt x 255.05113pt.
- [4 <D:/Cours/S8/Projets/Client_Serveur/serveur_raspberry/Latex/images/forces-p
+ [5 <D:/Cours/S8/Projets/Client_Serveur/serveur_raspberry/Latex/images/forces-p
 rotocole-enocean.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
- [5 <D:/Cours/S8/Projets/Client_Serveur/serveur_raspberry/Latex/images/forces-e
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
+ [6 <D:/Cours/S8/Projets/Client_Serveur/serveur_raspberry/Latex/images/forces-e
 nocean-vs-z-wave.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
 
 (D:\Cours\S8\Projets\Client_Serveur\serveur_raspberry\Latex\rapport_projet_rasb
 erry.aux
 (D:\Cours\S8\Projets\Client_Serveur\serveur_raspberry\Latex\pagedegarde.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
 Package rerunfilecheck Info: File `rapport_projet_rasberry.out' has not changed
 .
-(rerunfilecheck)             Checksum: F9538F55647C2CE3C90344006499EBE1;391.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
+(rerunfilecheck)             Checksum: 78EB2E8F689AB2CA28FCF7A191F95CA9;462.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
  ) 
 Here is how much of TeX's memory you used:
- 9138 strings out of 493921
- 138435 string characters out of 3144882
- 218855 words of memory out of 3000000
- 12281 multiletter control sequences out of 15000+200000
+ 9150 strings out of 493921
+ 138635 string characters out of 3144882
+ 219855 words of memory out of 3000000
+ 12287 multiletter control sequences out of 15000+200000
  41100 words of font info for 34 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 44i,7n,43p,603b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,7n,43p,603b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.enc}{C:/Program
  Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86
 )/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fo
@@ -915,9 +924,9 @@ lic/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
 les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/public/lm/lmtt10.pfb>
-Output written on rapport_projet_rasberry.pdf (6 pages, 901421 bytes).
+Output written on rapport_projet_rasberry.pdf (7 pages, 911335 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 92 words of extra memory for PDF output out of 10000 (max. 10000000)
 
