@@ -1,0 +1,517 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.25)  5 MAY 2015 20:13
+entering extended mode
+**pagedegarde.tex
+(D:\Cours\S8\Projets\Client_Serveur\serveur_raspberry\Latex\pagedegarde.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2   \begin{titlepage}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.4       {\Large
+                  \textsc{Ã‰cole Universitaire Polytechnique de Montpellier}}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...Universitaire Polytechnique de Montpellier}
+                                                  }\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no Ã in font cmcsc10!
+Missing character: There is no ‰ in font cmcsc10!
+
+Overfull \hbox (22.97765pt too wide) in paragraph at lines 4--4
+ []\OT1/cmr/m/sc/10 cole 
+ []
+
+
+Overfull \hbox (21.07207pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/m/sc/10 Uni- 
+ []
+
+
+Overfull \hbox (21.511pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/m/sc/10 ver- 
+ []
+
+
+Overfull \hbox (11.3777pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/m/sc/10 si- 
+ []
+
+
+Overfull \hbox (25.99985pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/m/sc/10 taire 
+ []
+
+
+Overfull \hbox (28.14978pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/m/sc/10 Poly- 
+ []
+
+
+Overfull \hbox (27.31094pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/m/sc/10 tech- 
+ []
+
+
+Overfull \hbox (27.2221pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/m/sc/10 nique 
+ []
+
+
+Overfull \hbox (11.82217pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/m/sc/10 de 
+ []
+
+
+Overfull \hbox (32.06644pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/m/sc/10 Mont- 
+ []
+
+
+Overfull \hbox (20.06653pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/m/sc/10 pel- 
+ []
+
+
+Overfull \hbox (19.75545pt too wide) in paragraph at lines 4--4
+ \OT1/cmr/m/sc/10 lier 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...‰lectronique et Informatique Industrielle }
+                                                  \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no Ã in font cmcsc10!
+Missing character: There is no © in font cmcsc10!
+Missing character: There is no Ã in font cmcsc10!
+Missing character: There is no ‰ in font cmcsc10!
+
+Overfull \hbox (92.88835pt too wide) in paragraph at lines 5--5
+ []\OT1/cmr/m/sc/10 Microlectronique 
+ []
+
+
+Overfull \hbox (11.48882pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/sc/10 et 
+ []
+
+
+Overfull \hbox (17.7582pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/sc/10 Au- 
+ []
+
+
+Overfull \hbox (29.64429pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/sc/10 toma- 
+ []
+
+
+Overfull \hbox (26.99986pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/sc/10 tique 
+ []
+
+
+Overfull \hbox (3.77774pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/sc/10 - 
+ []
+
+
+Overfull \hbox (20.39986pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/sc/10 lec- 
+ []
+
+
+Overfull \hbox (27.97763pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/sc/10 tron- 
+ []
+
+
+Overfull \hbox (21.08879pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/sc/10 ique 
+ []
+
+
+Overfull \hbox (11.48882pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/sc/10 et 
+ []
+
+
+Overfull \hbox (13.96655pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/sc/10 In- 
+ []
+
+
+Overfull \hbox (21.28879pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/sc/10 for- 
+ []
+
+
+Overfull \hbox (17.37769pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/sc/10 ma- 
+ []
+
+
+Overfull \hbox (26.99986pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/sc/10 tique 
+ []
+
+
+Overfull \hbox (13.96655pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/sc/10 In- 
+ []
+
+
+Overfull \hbox (20.73325pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/sc/10 dus- 
+ []
+
+
+Overfull \hbox (36.37756pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/sc/10 trielle 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6     \noindent
+                 \hrulefill
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.9       {\large
+                 	\@date\\}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@date ->\today 
+                
+l.9       {\large	\@date
+                        \\}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9       {\large	\@date\\
+                          }
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.11        {\huge
+                   \textbf{\@title}} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11        {\huge \textbf{\@title}
+                                   } \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: No \title given.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11        {\huge \textbf{\@title}
+                                   } \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.14       \includegraphics
+                           [scale=0.15]{images/head.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14       \includegraphics[
+                            scale=0.15]{images/head.png}\\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+! Undefined control sequence.
+l.17         {\large
+                     \@author} \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: No \author given.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17         {\large \@author} \\
+                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.20         \includegraphics
+                             [height=0.15\textheight]{images/mea.jpg}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20         \includegraphics[
+                              height=0.15\textheight]{images/mea.jpg}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.20 ...  \includegraphics[height=0.15\textheight]
+                                                  {images/mea.jpg}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.20 ...  \includegraphics[height=0.15\textheight]
+                                                  {images/mea.jpg}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no g in font nullfont!
+! Undefined control sequence.
+l.22         \includegraphics
+                             [height=0.15\textheight]{images/um.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.22 ...  \includegraphics[height=0.15\textheight]
+                                                  {images/um.png}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.22 ...  \includegraphics[height=0.15\textheight]
+                                                  {images/um.png}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23   \end{titlepage}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> pagedegarde.tex
+                   
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 14 strings out of 493921
+ 352 string characters out of 3144882
+ 50031 words of memory out of 3000000
+ 3405 multiletter control sequences out of 15000+200000
+ 4249 words of font info for 16 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 13i,1n,10p,130b,97s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
