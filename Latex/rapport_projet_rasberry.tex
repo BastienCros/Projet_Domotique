@@ -85,13 +85,20 @@ Pour implémenter le serveur, nous avons choisi d'utiliser une Raspberry B+, emb
 
 Le premier serveur implenter sur la Raspberry permettais seulement de gérer une connexion client/serveur la plus simple possible : le client se connecter grâce au port et l'adresse IP du serveur à celui-ci, et le serveur notifie sur le terminal que la connexion à bien été effectuer. Ensuite le client demande à l'utilisateur de taper quelque chose à l'écran, que le serveur lui renvoi. Finalement le client affiche dans son terminal la réponse du serveur ce qui permet de vérifier que le serveur à bien reçu le message.
 
-Le premier test à été effectuer en implémentant un client linux sur la Raspberry. Ainsi, nous pouvions valider le serveur grâce au client, avant de tester la connexion avec le client Android.
-
 \paragraph{Connexion au client Linux}
 %% -> les résultats obtenu, qlq images du terminale, puis les prob rencontré ( problème de buffer)
 
+Le premier test à été effectuer en implémentant un client linux sur la Raspberry. Ainsi, nous pouvions valider le serveur grâce au client, avant de tester la connexion avec le client Android.
+
+Les premiers résultats ont été concluant en terme de connexion, c'est à dire que le serveur recevais la demande de connexion du client et renvoyais le message du client. Le client, quant à lui, recevais et affichais le message renvoyais par le serveur. Cela nous a permis de valider la connexion et l'acceptation de la socket. Par contre, le client rencontrais un problème au niveau du buffer. En effet, le message affiché à l'écran étais bien celui initialement envoyé, mais le client affichais aussi tous les caractères présnt dans le buffer. % Mettre une image ? %
+
+Comme solution nous avons pensé à gérer la longueur du buffer en fonction de la longueur du message reçu.
+%% Faire des test sur cette solution %%
+
+
 \paragraph{Connexion avec le client Android}
 %% -> les résultats obtenu, qlq images du terminale, puis les prob rencontré ( données pas codé de la même manière)
+Ensuite il a fallu tester cette solution avec le client sous Android : la conexion a bien marché, mais nous avons eu un premier problème au moment de recevoir le message sur le périphérique Android.
 
 \subsection{Seconde version du serveur : gestion de plusieurs clients}
 
