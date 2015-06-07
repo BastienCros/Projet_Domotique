@@ -64,6 +64,53 @@
 %-------------------------------------------------------------------------------
 
 \section{Partie Android (client)}
+\subsection{La démarche}
+L’application devait seulement servir de client. Cependant, devant la difficulté de débugger et de communiquer entre un client Android et un serveur implémenté sur Raspberry il nous a semblé important de le tester séparément c’est pourquoi nous avons aussi mis en place un serveur Android afin de tester la communication entre deux entités similaires et ainsi s’affranchir des problèmes que peuvent poser deux architectures physiques différentes.  
+\subsection{Le client Android}
+\subsubsection{Le Socket}
+Pour pouvoir communiquer grâce au protocole sélectionné l’application doit prendre en compte plusieurs caractéristiques :
+\begin{itemize}
+	\item L’adresse IP
+	\item Le numéro de port
+\end{itemize}
+Pour ce faire, on rentre les caractéristiques dans ce qu’on appelle des sockets : il s’agit d’interface de connexion. C’est-à-dire que c’est « l’objet » qui va contenir les informations permettant de se connecter au serveur. L’Android étant un langage de haut niveau proche du Java. Lorsque l’on créer un socket c’est directement lui qui va se charger de faire les bonnes requêtes au serveur et se connecter à celui-ci. Il faut cependant penser à déclarer un code d’erreur permettant de tracer celle-ci en cas d’échec de la connexion. Même si cette étape n’est pas obligatoire elle est vivement conseillée dans le cadre de l’élaboration d’un code professionnel.
+\subsection{Le serveur Android}
+L’implémentation d’un serveur est peu différente d’un client. Il suffit pour ça de créer un socket serveur dans lequel on va renseigner un numéro de port auquel le client pourra se connecter. Il faut juste vérifier que le numéro de port n’est pas déjà attribué à une autre fonction de l’entité sur lequel on implémente le serveur.
+
+\subsubsection{Le processus}
+Le problème lorsque l’on réalise une connexion/communication client/serveur dans une application Android c’est que l’on est obligé de faire tourner cette tâche comme tâche de fond.  En effet, il faut que l’on puisse continuer à utiliser l’application sans que l’on soit déconnecté dès que l’on effectue une nouvelle action. Pour ce faire, il existe plusieurs méthodes pour implémenter un tel comportement. Cependant nous nous préoccuperons seulement des threads ici puisque c‘est la méthode implémentée ici. Lorsqu’une activité est lancée, elle est exécutée dans un thread. Il a pour rôle d’écouter les évènements quand l’utilisateur interagit avec l’interface graphique. Le nom du thread principal est thread UI (interface utilisateur). L’une des règles de programmation est notamment le fait qu’il ne faut pas gérer l’accès à un réseau dans le thread UI. En effet, on ne doit jamais bloquer le thread UI. Or si la connexion échoue, c’est toute l’application qui sera plantée. D’où l’importance de déclarer notre socket dans un nouveau thread. Pour cela, il suffit de déclarer un nouveau thread au sein de notre activité et d’insérer le socket à l’intérieur.
+\subsection{Le JSON en Android}
+Le langage Android est un langage modulaire donc si l'on veut utiliser le JSON il suffit d’importer le package JSON au début de l’activité dans laquelle on souhaite l’utiliser. On créer ensuite un objet JSON. Pour lui ajouter un nouveau sous-objet, on utilise la fonction puts (syntaxe: objet.puts(1,2)). Le premier paramètre de puts correspond à l’intitulé du second paramètre. Le second paramètre peut quant à lui être : int, double, string… Une implémentation propre d’un objet JSON passe aussi par l’ajout de sa valeur d’erreur afin de tracer celle-ci.
+\subsection{L’envoi et la réception de données}
+Pour pouvoir envoyer et recevoir des informations il faut créer deux Objects distincts: l’un pour envoyer et l’autre pour recevoir. Ensuite, il suffit d’utiliser une méthode pour recevoir les informations depuis le socket et inversement pour en envoyer. Il y a cependant une subtilité lorsque l’on envoie un objet JSON. En effet, il s’agit d’un objet composé de string. Pour pouvoir réussir à envoyer correctement un message en JSON il faut donc envoyer un Object sur le Stream grâce à la fonction writeObject(). Cependant, il faut convertir cet Object en string sinon le serveur ne sera pas en mesure d’interpréter les données reçues.
+\subsection{Le design} 
+Afin de créer un environnement pratique pour l’utilisateur, nous avons réalisé une interface comprenant plusieurs onglets :
+\begin{itemize}
+	\item L’onglet comportant les différents outils de connexions.
+	\item L’onglet qui affichera les différentes données issues de la métrologie.
+	\item L’onglet permettant de récupérer les différentes informations issues des capteurs et de les contrôler.
+\end{itemize}
+\begin{figure}[H]
+\centering\includegraphics[scale=0.7]{images/page.jpg}
+\caption{Ecran d'acceuil}
+\end{figure}
+\begin{figure}[H]
+\centering\includegraphics[scale=0.7]{images/connexion.jpg}
+\caption{Onglet de connexion}
+\end{figure}
+\begin{figure}[H]
+\centering\includegraphics[scale=0.7]{images/data.jpg}
+\caption{Onglet d'affichage des données}
+\end{figure}
+\begin{figure}[H]
+\centering\includegraphics[scale=0.7]{images/metrologie.jpg}
+\caption{Onglet de metrologie}
+\end{figure}
+
+Les onglets ont une implémentation légèrement plus complexe que le seul appel de différentes activités cependant une fois implémenté leur fonctionnement est similaire. En effet, lorsque l’utilisateur sélectionne l'un des onglets une sous-activité référentes est appelée et l’interface graphique est automatiquement générée grâce au fichier XML associé. Le design en lui-même n’est autre qu’un agencement de widgets et de calques dont les positions sont relatives entre eux afin que l’application s’adapte au mieux à toutes les tailles d’écran. Notre application est cependant optimisée pour des écrans de type tablette (environ 10 pouces).
+
+
+
 
 
 
