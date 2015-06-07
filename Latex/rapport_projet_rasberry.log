@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.18)  27 MAY 2015 11:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.18)  7 JUN 2015 17:16
 entering extended mode
 **rapport_projet_rasberry.tex
 (D:\Documents\Cour\Projet_Domotique\Latex\rapport_projet_rasberry.tex
@@ -517,218 +517,19 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip57
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
-Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip58
-\subfigcapskip=\skip59
-\subfigcaptopadj=\dimen120
-\subfigbottomskip=\skip60
-\subfigcapmargin=\dimen121
-\subfiglabelskip=\skip61
-
-
-! LaTeX Error: Command \c@subfigure already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 \newcounter{subfigure}
-                           [figure]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \l@subfigure already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.98 ...dxxxline{\ext@subfigure}{2}{3.8em}{2.5em}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \c@lofdepth already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.99 \newcounter{lofdepth}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \c@subtable already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101 \newcounter{subtable}
-                           [table]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \l@subtable already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 ...dxxxline{\ext@subtable}{2}{3.8em}{2.5em}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \c@lotdepth already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112 \newcounter{lotdepth}
-                           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-****************************************
-* Local config file subfigure.cfg used *
-****************************************
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
-\subfig@top=\skip62
-\subfig@bottom=\skip63
-
-
-! LaTeX Error: Command \listsubcaptions already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.269     {\@listsubcaptions{\@captype}}}
-                                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \@listsubcaptions already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.280   \gdef\@subfigcaptionlist{}}
-                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \@dottedxxxline already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.333   \fi}
-            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \subfloat@label already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.361 ...           \@nameuse{thesub\@captype}.)}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \sf@@sub@label already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.386   \@esphack}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \subref already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.388   \ref{sub@#1}}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
-Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
-
-
-! Package subcaption Error: This package can't be used in cooperation
-(subcaption)                with the subfigure package.
-
-See the subcaption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48   \endinput}{}
-                   %
-RTFM
-
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count110
 \lst@gtempboxa=\box28
 \lst@token=\toks19
 \lst@length=\count111
-\lst@currlwidth=\dimen122
+\lst@currlwidth=\dimen120
 \lst@column=\count112
 \lst@pos=\count113
-\lst@lostspace=\dimen123
-\lst@width=\dimen124
+\lst@lostspace=\dimen121
+\lst@width=\dimen122
 \lst@newlines=\count114
 \lst@lineno=\count115
-\lst@maxwidth=\dimen125
+\lst@maxwidth=\dimen123
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
@@ -936,13 +737,13 @@ Package frenchb.ldf Warning: OT1 encoding should not be used for French.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count118
-\scratchdimen=\dimen126
+\scratchdimen=\dimen124
 \scratchbox=\box30
 \nofMPsegments=\count119
 \nofMParguments=\count120
 \everyMPshowfont=\toks20
 \MPscratchCnt=\count121
-\MPscratchDim=\dimen127
+\MPscratchDim=\dimen125
 \MPnumerator=\count122
 \makeMPintoPDFobject=\count123
 \everyMPtoPDFconversion=\toks21
@@ -952,7 +753,6 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
-Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box31
 Package hyperref Info: Link coloring OFF on input line 49.
@@ -1030,64 +830,12 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [2
 
  <D:/Documents/Cour/Projet_Domotique/Latex/images/Shema_projet.png>]
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.103 	\begin{subfigure}[b]{0.3\textwidth}
-                                          
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.103 	\begin{subfigure}[b]{0.3\textwidth}
-                                          
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-[]\OT1/lmr/m/n/8 (a)
- []
-
 <images/serveur_simple_ex.png, id=83, 405.01312pt x 82.80937pt>
 File: images/serveur_simple_ex.png Graphic file (type png)
 
 <use images/serveur_simple_ex.png>
-Package pdftex.def Info: images/serveur_simple_ex.png used on input line 104.
-(pdftex.def)             Requested size: 202.50606pt x 41.40457pt.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.109 	\begin{subfigure}[b]{0.3\textwidth}
-                                          
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.109 	\begin{subfigure}[b]{0.3\textwidth}
-                                          
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-[]\OT1/lmr/m/n/8 (a)
- []
+Package pdftex.def Info: images/serveur_simple_ex.png used on input line 106.
+(pdftex.def)             Requested size: 172.5pt x 35.26996pt.
 
 <images/test_reponse_client_simple.png, id=84, 397.485pt x 232.61906pt>
 File: images/test_reponse_client_simple.png Graphic file (type png)
@@ -1095,245 +843,92 @@ File: images/test_reponse_client_simple.png Graphic file (type png)
 <use images/test_reponse_client_simple.png>
 Package pdftex.def Info: images/test_reponse_client_simple.png used on input li
 ne 110.
-(pdftex.def)             Requested size: 198.742pt x 116.30923pt.
+(pdftex.def)             Requested size: 172.5pt x 100.9542pt.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.116 images/test_
-                  reponse_client_simple.png
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 117.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.117 Comme solution nous avons pensé
-                                       à gérer la longueur du buffer en fo...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.117 Comme solution nous avons pensé
-                                       à gérer la longueur du buffer en fo...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Command \` invalid in math mode on input line 117.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.117 Comme solution nous avons pensé à
-                                          gérer la longueur du buffer en fo...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.117 Comme solution nous avons pensé à
-                                          gérer la longueur du buffer en fo...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 117.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.117 Comme solution nous avons pensé à gé
-                                             rer la longueur du buffer en fo...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.117 Comme solution nous avons pensé à gé
-                                             rer la longueur du buffer en fo...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Command \c invalid in math mode on input line 117.
-
-! Please use \mathaccent for accents in math mode.
-<recently read> \accent 
-                        
-l.117 ...n fonction de la longueur du message reç
-                                                  u. Mais c'est une autre so...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 117.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.117 ...u. Mais c'est une autre solution qui a é
-                                                  té retenu : un parser. No...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.117 ...u. Mais c'est une autre solution qui a é
-                                                  té retenu : un parser. No...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 117.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.117 ...Mais c'est une autre solution qui a été
-                                                   retenu : un parser. Nous ...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.117 ...Mais c'est une autre solution qui a été
-                                                   retenu : un parser. Nous ...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 117.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.117 ...avons choisi le parser JSON, que nous dé
-                                                  taillerons plus loin.
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.117 ...avons choisi le parser JSON, que nous dé
-                                                  taillerons plus loin.
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.119 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no � in font lmex10!
-Missing character: There is no � in font lmex10!
-Missing character: There is no � in font lmex10!
-Missing character: There is no � in font lmex10!
-Missing character: There is no � in font lmex10!
-Missing character: There is no � in font lmex10!
-
-Overfull \hbox (459.4838pt too wide) in paragraph at lines 116--119
-[]\OT1/lmr/m/n/10 images/test$[]\OML/lmm/m/it/10 eponse[]lient[]imple:pngCommes
-olutionnousavonspens[][]g[]rerlalongueurdubufferenfonctiondelalongueurdumessage
-re[]u:Maisc[]estuneautresolutionquia[]t[]retenu \OT1/lmr/m/n/10 :$
+Overfull \hbox (16.66664pt too wide) in paragraph at lines 106--111
+ [][][] 
  []
 
-[3 <D:/Documents/Cour/Projet_Domotique/Latex/images/serveur_simple_ex.png> <D:/
-Documents/Cour/Projet_Domotique/Latex/images/test_reponse_client_simple.png>]
-Overfull \hbox (5.57076pt too wide) in paragraph at lines 125--125
+
+Overfull \hbox (5.57076pt too wide) in paragraph at lines 124--124
 []\OT1/lmr/bx/n/12 Seconde ver-sion du ser-veur : ges-tion de plu-sieurs client
 s 
  []
 
+[3 <D:/Documents/Cour/Projet_Domotique/Latex/images/serveur_simple_ex.png> <D:/
+Documents/Cour/Projet_Domotique/Latex/images/test_reponse_client_simple.png>]
+<images/JSON_trame.jpg, id=97, 414.04688pt x 21.83156pt>
+File: images/JSON_trame.jpg Graphic file (type jpg)
 
-Overfull \hbox (9.30627pt too wide) in paragraph at lines 167--168
+<use images/JSON_trame.jpg>
+Package pdftex.def Info: images/JSON_trame.jpg used on input line 137.
+(pdftex.def)             Requested size: 289.83083pt x 15.28197pt.
+
+<images/test_JSON_litle.jpg, id=99, 465.99094pt x 73.77562pt>
+File: images/test_JSON_litle.jpg Graphic file (type jpg)
+
+<use images/test_JSON_litle.jpg>
+Package pdftex.def Info: images/test_JSON_litle.jpg used on input line 144.
+(pdftex.def)             Requested size: 326.19142pt x 51.64256pt.
+ [4 <D:/Documents/Cour/Projet_Domotique/Latex/images/JSON_trame.jpg> <D:/Docume
+nts/Cour/Projet_Domotique/Latex/images/test_JSON_litle.jpg>]
+Overfull \hbox (9.30627pt too wide) in paragraph at lines 197--198
 []\OT1/lmr/m/n/10 des tech-no-lo-gies mises en uvre par plu-sieurs construc-te
 urs de peripheriques. 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
-
- []
-
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 223
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 253
 .
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
 
 (D:\Documents\Cour\Projet_Domotique\Latex\rapport_projet_rasberry.aux
 (D:\Documents\Cour\Projet_Domotique\Latex\pagedegarde.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
 Package rerunfilecheck Info: File `rapport_projet_rasberry.out' has not changed
 .
 (rerunfilecheck)             Checksum: 2CD30EA80D24E1FC1FDD637D293EC9B1;933.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 237.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
  ) 
 Here is how much of TeX's memory you used:
- 9294 strings out of 493921
- 140750 string characters out of 3144879
- 221144 words of memory out of 3000000
- 12419 multiletter control sequences out of 15000+200000
+ 9197 strings out of 493921
+ 139352 string characters out of 3144879
+ 219855 words of memory out of 3000000
+ 12319 multiletter control sequences out of 15000+200000
  44407 words of font info for 36 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 44i,7n,43p,633b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,9n,47p,610b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.enc}{C:/Program
- Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86
-)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.
-9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvi
+ Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86
+)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvi
 ps/lm/lm-ts1.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmsc.
 enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/lm/lmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on rapport_projet_rasberry.pdf (7 pages, 282573 bytes).
+s/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
+Output written on rapport_projet_rasberry.pdf (8 pages, 314628 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 104 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 187 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 114 words of extra memory for PDF output out of 10000 (max. 10000000)
 

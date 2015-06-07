@@ -15,10 +15,10 @@
 \usepackage{graphicx}
 \usepackage[lofdepth,lotdepth]{subfig}
 \usepackage{float}
-\usepackage{hyperref}					% lien hypertext
-\usepackage{subfigure}					% sous-figure -> permet d'afficher 2 images côte à côte
+\usepackage{hyperref}					% lien hypertext		 
+\usepackage[lofdepth,lotdepth]{subfig}	% sous-figure -> permet d'afficher 2 images côte à côte
 \usepackage{caption}
-\usepackage{subcaption}
+%\usepackage{subcaption}
 %---------------------------------------------------------
 \usepackage{listings}
 \usepackage{textcomp}
@@ -77,15 +77,15 @@ Le serveur servira a centralisé tout le réseau domotique. Il aura pour tâches
 	\item Gestion des données différentes en fonction de la connexion à un client Android ou un capteur/	actionneur. 
 	\item Si connexion à un Android : 
 		\begin{itemize}
-			\item Envoie des informations concernant les capteurs, les actionneurs, de métrologie, etc. (à définir).
-			\item Réception des ordres de la tablette : allumer tel lampe, se connecter à tel capteur, etc. (à définir).
+			\item Envoie des informations concernant les capteurs, les actionneurs, la métrologie.
+			\item Réception des ordres de la tablette : allumer tel lampe, se connecter à tel capteur, mettre en action les actionneurs.
 		\end{itemize}
 	\item Si connexion à un capteur, simplement lire les informations.
 	\item Si connexion à un actionneur, le commander (selon les ordres reçu de la tablette) et gérer son état.
 	\item Calcul de métrologie pour chaque connexion.
 \end{itemize}
 
-Pour implémenter le serveur, nous avons choisi d'utiliser une Raspberry B+, embarquant un système dérivé de Débian : Raspbian. Cela nous as permit d'implémenter un serveur linux, utilisant les fonctions unix.
+Pour implémenter le serveur, nous avons choisi d'utiliser une Raspberry B+, embarquant un système dérivé de Débian : Raspbian. Cela nous as permit d'implémenter un serveur Linux, utilisant les fonctions Unix.
 
 \subsection{Première version du serveur : Connexion à un seul client}
 
@@ -94,26 +94,25 @@ Le premier serveur implémenté sur la Raspberry permettais seulement de gérer 
 \paragraph{Connexion au client Linux}
 %% -> les résultats obtenu, qlq images du terminale, puis les prob rencontré ( problème de buffer)
 
-Le premier test à été effectuer en implémentant un client linux sur la Raspberry. Ainsi, nous pouvions valider le serveur grâce au client, avant de tester la connexion avec le client Android.
+Le premier test à été effectuer en implémentant un client Linux sur la Raspberry. Ainsi, nous pouvions valider le serveur grâce au client, avant de tester la connexion avec le client Android.
 
-Les premiers résultats ont été concluant en terme de connexion, c'est à dire que le serveur reçois la demande de connexion du client et renvois le message du client. Le client, quant à lui, reçois et affiche le message renvoyé par le serveur. Cela nous a permis de valider la création du serveur et la connexion au client. Par contre, nous avons rencontré un problème au niveau du buffer avec le client. En effet, le message affiché à l'écran étais bien celui initialement envoyé, mais le client affiche aussi tous les caractères présent dans le buffer. % Mettre une image ? %
-\begin{figure}[H]
-	\centering
-	%\subfigure[connexion au client.]{
-	\begin{subfigure}[b]{0.3\textwidth}
-		\includegraphics[scale=0.5]{images/serveur_simple_ex.png}
-		\caption{connexion au client.}
-		\label{fig:serveur_simple}
-	\end{subfigure}
-	\quad
-	\begin{subfigure}[b]{0.3\textwidth}
-		\includegraphics[scale=0.5]{images/test_reponse_client_simple.png}
-		\caption{connexion au client.}
-		\label{fig:serveur_simple_reponse}
-	\end{subfigure}
-\caption{Serveur Linux}
+Les premiers résultats ont été concluant en terme de connexion, c'est à dire que le serveur reçois la demande de connexion du client et renvois le message du client. Le client, quant à lui, reçois et affiche le message renvoyé par le serveur. Cela nous a permis de valider la création du serveur et la connexion au client. Par contre, nous avons rencontré un problème au niveau du buffer avec le client. En effet, le message affiché à l'écran étais bien celui initialement envoyé, mais le client affiche aussi tous les caractères présent dans le buffer.
+
+\begin{figure}[h]
+  \begin{center}
+    \subfloat[Connexion au client.]{
+      \includegraphics[width=0.5\textwidth]{images/serveur_simple_ex.png}
+      \label{sub:serveur_simple}
+                         }
+    \subfloat[Le client affiche la réponse du serveur.]{
+      \includegraphics[width=0.5\textwidth]{images/test_reponse_client_simple.png}
+      \label{sub:serveur_simple_reponse}
+                         }
+    \caption{Serveur Linux}
+    \label{fig:serv_simple}
+  \end{center}
 \end{figure}
-images/test_reponse_client_simple.png
+
 Comme solution nous avons pensé à gérer la longueur du buffer en fonction de la longueur du message reçu. Mais c'est une autre solution qui a été retenu : un parser. Nous avons choisi le parser JSON, que nous détaillerons plus loin.
 %% Faire des test sur cette solution %%
 
@@ -123,11 +122,42 @@ Comme solution nous avons pensé à gérer la longueur du buffer en fonction de 
 Ensuite il a fallu tester cette solution avec le client sous Android : la conexion a bien marché, mais nous avons eu un premier problème au moment de recevoir le message sur le périphérique Android.
 
 \subsection{Seconde version du serveur : gestion de plusieurs clients}
+La deuxième version du serveur nous permet de gérer plusieurs clients à la fois. En effet, de part l'idée du projet, il nous fallait pouvoir gérer plusieurs client, d'origine différente. Pour cela, le serveur appelle un nouveau thread a chaque demande de connexion. Le thread ainsi créé s'exécute ainsi durant la connexion au client. La connexion est quitté si le client arrête de communiquer. 
+
+\paragraph{Connexion au client Linux}
+Comme précédemment, nous avons d'abord testé notre programme sur Linux avant Android. La connexion marchais très bien, hormis le problème mentionné dans la première version du serveur. Ce qui est normal car nous n'avons pas encore implémenter le parser.
+
+\paragraph{Connexion avec le client Android}
+Le serveur a bien accepté la connexion au client Android, mais nous n'arrivons pas décoder proprement les trames que nous envoyais celui-ci.
 
 \subsection{Troisième version du serveur : échanges de trame au format JSON}
 
+Pour pouvoir parser/déparser nos trames, nous avons choisi d'utiliser  le format de trames JSON. Il présente plusieurs avantage, dont les principaux sont sont son coté générique et abstraits d'une part. Il est donc facilement implémentable sur un langage C (serveur) et JAVA (client). De plus, des parsers existe à la fois sous Linux et Android et ce format de donnée et facilement lisible. Il se presente sous la forme suivante :
+\begin{figure}[H]
+\centering\includegraphics[scale=0.7]{images/JSON_trame.jpg}
+%\caption{Schéma montrant les différentes connexion du réseau.}
+\end{figure}
+
+Nous avons choisi le parser suivant : \href{https://bitbucket.org/zserge/jsmn/wiki/Home}{parser JSON jsmn}, qui a l'avantage d'être facilement adaptable avec notre programme. Un parser JSON est nativement implémenter dans le système Android, ce qui nous a permis directement tester la communication Android-Linux. \\ 
+Le périphérique Android envoie une trame JSON (comme présenté plus haut) et le serveur la décode et l'affiche : 
+\begin{figure}[H]
+\centering\includegraphics[scale=0.7]{images/test_JSON_litle.jpg}
+%\caption{Schéma montrant les différentes connexion du réseau.}
+\end{figure}
+
+Le parser jsmn, qui marchait très bien pour une communication Linux-Linux, pose des problèmes dans ce cas ici. En effet, des caractères (ici $"tD"$) sont parsé avant d'arriver à la trame au bon format. La solution envisagée est de coder une fonction qui prends le string reçu qu'a partir de la première accolade.
+
+
+
 \subsection{Quatrième version du serveur : lancement de tâche différentes selon le type de connexion}
-%% -> serveur multi service
+
+La version précédentes permettant de gérer plusieurs clients, mais pas de trier la fonction de ceux-ci. Nous avons donc envisagé plusieurs solutions pour résoudre le problème. 
+
+\subparagraph{Différents ports} Au moment de créer le serveur, plusieurs ports sont ouvert. Ainsi, chaque périphérique se connecte au numéro de port correspondant au service requis. Ensuite, le serveur lance le thread correspondant.
+
+\subparagraph{Un identifiant dans la trame JSON} Comme il est facile de modifié les trames sous ce format, il est possible de rajouter un champ pour indiquer quel est le service demandé. 
+
+\subparagraph{Un message comme identifiant} Le premier message de la connexion peut servir à donner l'identifiant du périphérique.
 
 %-------------------------------------------------------------------------------------------------------------
 

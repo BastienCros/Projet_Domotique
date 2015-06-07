@@ -4,22 +4,27 @@
 \contentsline {section}{\numberline {3}Partie Raspberry (serveur)}{2}{section.3}
 \contentsline {subsection}{\numberline {3.1}Premi\IeC {\`e}re version du serveur : Connexion \IeC {\`a} un seul client}{3}{subsection.3.1}
 \contentsline {paragraph}{Connexion au client Linux}{3}{section*.3}
-\contentsline {paragraph}{Connexion avec le client Android}{4}{section*.5}
-\contentsline {subsection}{\numberline {3.2}Seconde version du serveur : gestion de plusieurs clients}{4}{subsection.3.2}
+\contentsline {paragraph}{Connexion avec le client Android}{3}{section*.5}
+\contentsline {subsection}{\numberline {3.2}Seconde version du serveur : gestion de plusieurs clients}{3}{subsection.3.2}
+\contentsline {paragraph}{Connexion au client Linux}{4}{section*.6}
+\contentsline {paragraph}{Connexion avec le client Android}{4}{section*.7}
 \contentsline {subsection}{\numberline {3.3}Troisi\IeC {\`e}me version du serveur : \IeC {\'e}changes de trame au format JSON}{4}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Quatri\IeC {\`e}me version du serveur : lancement de t\IeC {\^a}che diff\IeC {\'e}rentes selon le type de connexion}{4}{subsection.3.4}
-\contentsline {section}{\numberline {4}Protocoles domotiques}{4}{section.4}
-\contentsline {subsection}{\numberline {4.1}Les protocoles grand public}{4}{subsection.4.1}
-\contentsline {paragraph}{X10}{4}{section*.6}
-\contentsline {subparagraph}{Les plus :}{4}{section*.7}
-\contentsline {subparagraph}{Les moins :}{4}{section*.8}
-\contentsline {paragraph}{OREGON}{4}{section*.9}
-\contentsline {paragraph}{OREGON}{4}{section*.10}
-\contentsline {subsection}{\numberline {4.2}Les protocoles de rupture technologique}{4}{subsection.4.2}
-\contentsline {paragraph}{Z-Wave}{5}{section*.11}
-\contentsline {subparagraph}{Les plus :}{5}{section*.12}
-\contentsline {subparagraph}{Les moins :}{5}{section*.13}
-\contentsline {paragraph}{EnOcean}{5}{section*.14}
-\contentsline {subparagraph}{Les plus :}{5}{section*.15}
-\contentsline {subparagraph}{Les moins :}{6}{section*.16}
-\contentsline {section}{\numberline {5}Annexes}{6}{section.5}
+\contentsline {subparagraph}{Diff\IeC {\'e}rents ports}{5}{section*.10}
+\contentsline {subparagraph}{Un identifiant dans la trame JSON}{5}{section*.11}
+\contentsline {subparagraph}{Un message comme identifiant}{5}{section*.12}
+\contentsline {section}{\numberline {4}Protocoles domotiques}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}Les protocoles grand public}{5}{subsection.4.1}
+\contentsline {paragraph}{X10}{5}{section*.13}
+\contentsline {subparagraph}{Les plus :}{5}{section*.14}
+\contentsline {subparagraph}{Les moins :}{5}{section*.15}
+\contentsline {paragraph}{OREGON}{5}{section*.16}
+\contentsline {paragraph}{OREGON}{5}{section*.17}
+\contentsline {subsection}{\numberline {4.2}Les protocoles de rupture technologique}{5}{subsection.4.2}
+\contentsline {paragraph}{Z-Wave}{6}{section*.18}
+\contentsline {subparagraph}{Les plus :}{6}{section*.19}
+\contentsline {subparagraph}{Les moins :}{6}{section*.20}
+\contentsline {paragraph}{EnOcean}{6}{section*.21}
+\contentsline {subparagraph}{Les plus :}{6}{section*.22}
+\contentsline {subparagraph}{Les moins :}{7}{section*.23}
+\contentsline {section}{\numberline {5}Annexes}{7}{section.5}

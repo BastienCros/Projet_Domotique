@@ -117,3 +117,6 @@ void *connection_handler(void *socket_desc)
      
     return 0;
 }
+
+
+{"name":"JackHack","nickname":"Hacker", "score":123,"current":152.3}
