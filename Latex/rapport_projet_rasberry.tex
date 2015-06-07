@@ -8,13 +8,17 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[french]{babel} 
+\frenchbsetup{StandardLists=true} % à inclure si on utilise \usepackage[french]{babel}
 \usepackage{lmodern} % Pour changer le pack de police
 \usepackage{makeidx}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage[lofdepth,lotdepth]{subfig}
 \usepackage{float}
-\usepackage{hyperref}
+\usepackage{hyperref}					% lien hypertext
+\usepackage{subfigure}					% sous-figure -> permet d'afficher 2 images côte à côte
+\usepackage{caption}
+\usepackage{subcaption}
 %---------------------------------------------------------
 \usepackage{listings}
 \usepackage{textcomp}
@@ -37,6 +41,8 @@
 %stringstyle=\color[rgb]{0.627,0.126,0.941},
 %}
 %----------------------------------------------------------
+%\graphicspath{{images/}{/home/img/}}
+%\DeclareGraphicsExtensions{.png ,.jpg}
 
 \renewcommand{\labelitemii}{$\bullet$}
 
@@ -49,7 +55,7 @@
 
 \section{Presentation Projet}
 
--- TITE INTRO --
+%-- TITE INTRO --
 \begin{figure}[H]
 \centering\includegraphics[scale=0.7]{images/Shema_projet.png}
 \caption{Schéma montrant les différentes connexion du réseau.}
@@ -83,16 +89,32 @@ Pour implémenter le serveur, nous avons choisi d'utiliser une Raspberry B+, emb
 
 \subsection{Première version du serveur : Connexion à un seul client}
 
-Le premier serveur implenter sur la Raspberry permettais seulement de gérer une connexion client/serveur la plus simple possible : le client se connecter grâce au port et l'adresse IP du serveur à celui-ci, et le serveur notifie sur le terminal que la connexion à bien été effectuer. Ensuite le client demande à l'utilisateur de taper quelque chose à l'écran, que le serveur lui renvoi. Finalement le client affiche dans son terminal la réponse du serveur ce qui permet de vérifier que le serveur à bien reçu le message.
+Le premier serveur implémenté sur la Raspberry permettais seulement de gérer une connexion client/serveur la plus simple possible : le client se connecte sur le port du serveur (ici 8888) et grâce à l'adresse IP du serveur à celui-ci, et le serveur notifie sur le terminal que la connexion à bien été effectué. Ensuite le client demande à l'utilisateur de taper un message à l'écran, que le serveur lui renvoi. Finalement le client affiche dans son terminal la réponse du serveur ce qui permet de vérifier que le serveur à bien reçu le message.
 
 \paragraph{Connexion au client Linux}
 %% -> les résultats obtenu, qlq images du terminale, puis les prob rencontré ( problème de buffer)
 
 Le premier test à été effectuer en implémentant un client linux sur la Raspberry. Ainsi, nous pouvions valider le serveur grâce au client, avant de tester la connexion avec le client Android.
 
-Les premiers résultats ont été concluant en terme de connexion, c'est à dire que le serveur recevais la demande de connexion du client et renvoyais le message du client. Le client, quant à lui, recevais et affichais le message renvoyais par le serveur. Cela nous a permis de valider la connexion et l'acceptation de la socket. Par contre, le client rencontrais un problème au niveau du buffer. En effet, le message affiché à l'écran étais bien celui initialement envoyé, mais le client affichais aussi tous les caractères présnt dans le buffer. % Mettre une image ? %
-
-Comme solution nous avons pensé à gérer la longueur du buffer en fonction de la longueur du message reçu.
+Les premiers résultats ont été concluant en terme de connexion, c'est à dire que le serveur reçois la demande de connexion du client et renvois le message du client. Le client, quant à lui, reçois et affiche le message renvoyé par le serveur. Cela nous a permis de valider la création du serveur et la connexion au client. Par contre, nous avons rencontré un problème au niveau du buffer avec le client. En effet, le message affiché à l'écran étais bien celui initialement envoyé, mais le client affiche aussi tous les caractères présent dans le buffer. % Mettre une image ? %
+\begin{figure}[H]
+	\centering
+	%\subfigure[connexion au client.]{
+	\begin{subfigure}[b]{0.3\textwidth}
+		\includegraphics[scale=0.5]{images/serveur_simple_ex.png}
+		\caption{connexion au client.}
+		\label{fig:serveur_simple}
+	\end{subfigure}
+	\quad
+	\begin{subfigure}[b]{0.3\textwidth}
+		\includegraphics[scale=0.5]{images/test_reponse_client_simple.png}
+		\caption{connexion au client.}
+		\label{fig:serveur_simple_reponse}
+	\end{subfigure}
+\caption{Serveur Linux}
+\end{figure}
+images/test_reponse_client_simple.png
+Comme solution nous avons pensé à gérer la longueur du buffer en fonction de la longueur du message reçu. Mais c'est une autre solution qui a été retenu : un parser. Nous avons choisi le parser JSON, que nous détaillerons plus loin.
 %% Faire des test sur cette solution %%
 
 
@@ -109,29 +131,6 @@ Ensuite il a fallu tester cette solution avec le client sous Android : la conexi
 
 %-------------------------------------------------------------------------------------------------------------
 
-\section{JSON (JavaScript Object Notation)}
-
-Nous avons rencontré un problème lors de l'envoi de données entre la tablette et la Raspberry. En effet les données n'ont pas le même format, elles ne sont pas codées sur le même nombre d'octets sur l'une et l'autre des platformes. Pour résoudre ce problème nous avons décidé d'utiliser un format de donnée spécifique : le JSON.
-
-JSON est un format de données textuelles dérivé de la notation des objets du langage JavaScript. Il permet de représenter de l’information structurée comme le permet XML par exemple. 
-
-Voici un exemple d'objet JSON :
-\begin{figure}[H]
-\centering\includegraphics[scale=0.7]{images/json_exemple.png}
-\caption{Exemple d'objet JSON.}
-\end{figure}
-
-JSON permet donc de représenter n'importe quelles données concrètes et surtout les représenter dans n'importe quel langage de programmation. Ses autres avantages sont :
-\begin{itemize}
-\item peu verbeux donc très lisible
-\item facile à apprendre de par sa syntaxe simple
-\item ses types de données sont connus et simples à décrire
-\end{itemize}
-
-\subparagraph{Sous Android} La plate-forme Android inclut les bibliothèques json.org qui permettent de travailler facilement avec des fichiers JSON. Elle contient un parser et l'utilisation est plutôt simple. Nous avons utilisé \href{http://vogella.developpez.com/tutoriels/android/utilisation-format-json/}{ce tutoriel}.
-\subparagraph{Sur la Raspberry} Nous avons opté pour un parser écrit en C. Il s'appelle \textbf{jsmn} (à prononcer "jasmine") et est très minimaliste. Il est fait exprès pour les systèmes embarquée à ressources limitées. Il est très simple d'utilisation et c'est pourquoi nous l'avons choisi. Voici le \href{http://zserge.com/jsmn.html}{liens} contenant toutes les informations.
-
-%-------------------------------------------------------------------------------------------------------------
 \section{Protocoles domotiques}
 
 \subsection{Les protocoles grand public}
@@ -230,7 +229,7 @@ Les deux graphiques précédent sont issues du site \url{www.abavala.com}. Elles
 %-------------------------------------------------------------------------------------------------------------
 
 \section{Annexes}
-http://vogella.developpez.com/tutoriels/android/utilisation-format-json/
+
 
  
 %-------------------------------------------------------------------------------------------------------------
